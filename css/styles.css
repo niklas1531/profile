@@ -1,0 +1,99 @@
+/* General */
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    color: #8f8f8f;
+  }
+
+  h3 {
+      font-weight: 400;
+  }
+/* Sections */
+.colored-section {
+    background-color: #4D77FF;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 590px) {
+    .section-heading {
+        font-size: 2.5rem;
+    }
+}
+
+/* Title */
+.container-fluid {
+    padding: 3% 15%;
+}
+.navbar {
+    padding: 0 0 4.5rem; 
+}
+.navbar-brand {
+    font-weight: 700;   
+    font-size: 2.5rem;
+}
+.nav-item {
+    padding: 0 18px; 
+}
+.nav-link {
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+/* Berufserfahrung */
+.berufserfahrung-box {
+    padding: 4.5%;
+}
+.berufserfahrung-image {
+    width: 60px;
+    margin-bottom: 10px;
+}
+/* Zertifikate */
+#zertifikate {
+    background-color: #56BBF1;
+    color: #fff;
+}
+
+/* Skills */
+.skill-box {
+    padding: 4.5%;
+}
+@media (max-width: 580px) {
+    .skill-box {
+        width: 50%;
+    }
+}
+.skills-image {
+    margin-bottom: 1rem;
+    font-size: 3em;
+    width: 90px;
+    color: #56BBF1;
+    
+}
+.skills-image:hover {
+    color: #4D77FF;
+}
+/* Footer */
+.social-icon {
+    margin: 20px 10px;
+  }
+.social-icon:hover {
+    transform: scale(2.5, 2.5);
+}
+.kontakt-beschreibung {
+    padding: 2% 0;
+    margin: 0;
+}
+.kontakt-input {
+    padding: 2%;
+}
