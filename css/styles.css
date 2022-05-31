@@ -49,6 +49,13 @@ p {
     font-weight: lighter;
     font-size: 1.2rem;
 }
+.btn-light {
+    border: none;
+    background-color: #4D77FF;
+    color: rgba(255,255,255,.5);
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
 
 /* Berufserfahrung */
 .berufserfahrung-box {
